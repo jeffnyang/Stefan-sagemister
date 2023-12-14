@@ -1,0 +1,35 @@
+.philosophyCont {
+    width: 100vw;
+}
+.Cont{
+    width: 100vw;
+    height: 811px;
+    background-color: #FFF6EF;
+    display: flex;
+    margin: 0 auto;
+}
+.item{
+    position: relative;
+    width: 677px;
+    height: 680px;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin: 40px;
+    padding: 40px;
+}
+.Cont .item:hover{
+    width: 100%;
+    transition: all 0.5s;
+}
+.item:hover img{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.Conts{
+    background-image: url(img/p_conts.png);
+    width: 100vw;
+    height: 1235px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
